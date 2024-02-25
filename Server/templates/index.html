@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Length Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Minvestment</h1>
+    <br>
+    <h2>Spend a few minutes, earn a few bucks!</h2>
+    <div class="banner">
+        <a href="/about" class="button">About</a>
+        <a href="/help" class="button">Help</a>
+    </div>
+    <form id="myForm" method="post" action="/" style="padding-top: 0px;">
+        <div id="submission">
+        </label>
+        <input type="text" id="text_input" name="text_input" placeholder="Enter company name..." required style="width: 700px;height: 70px;text-align: center;margin-top: -100px;font-size: 40px;border-radius: 20px;">
+        <br>
+        <button type="submit" style="width: 400px;height: 70px;font-size: 40px;text-align: center;background-color: greenyellow;border-radius: 20px;margin-top: 10px;">Analyze</button>
+
+        </div>
+    </form>
+</body>
+</html>
